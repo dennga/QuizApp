@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="63cm" height="9cm" viewBox="215 312 1242 166" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #bfbfbf" x="216" y="343" width="164" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="216" y="343" width="164" height="28"/>
+    <text font-size="16" style="fill: #4d4d4d;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="298" y="363">QuizApp(Main)</text>
+    <rect style="fill: #bfbfbf" x="216" y="371" width="164" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="216" y="371" width="164" height="20"/>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="219" y="384.2">+main(String[] args)</text>
+    <rect style="fill: #bfbfbf" x="216" y="391" width="164" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="216" y="391" width="164" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="1238" y="313" width="217.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="1238" y="313" width="217.9" height="28"/>
+    <text font-size="16" style="fill: #4d4d4d;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1346.95" y="333">Question</text>
+    <rect style="fill: #bfbfbf" x="1238" y="341" width="217.9" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="1238" y="341" width="217.9" height="52"/>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="354.2">-questionText: String</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="370.2">-options: List&lt;String&gt;</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="386.2">-correctAnswerIndex: int</text>
+    <rect style="fill: #bfbfbf" x="1238" y="393" width="217.9" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="1238" y="393" width="217.9" height="84"/>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="406.2">+Question(...)</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="422.2">+getQuestionText(): String</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="438.2">+getOptions(): List&lt;String&gt;</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="454.2">+isCorrect(int): boolean</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1241" y="470.2">+getCorrectAnswer(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #bfbfbf" x="630" y="329" width="287.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="630" y="329" width="287.2" height="28"/>
+    <text font-size="16" style="fill: #4d4d4d;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="773.6" y="349">Quiz</text>
+    <rect style="fill: #bfbfbf" x="630" y="357" width="287.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="630" y="357" width="287.2" height="36"/>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="370.2">-questions: List&lt;Question&gt;</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="386.2">-score: int</text>
+    <rect style="fill: #bfbfbf" x="630" y="393" width="287.2" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" x="630" y="393" width="287.2" height="84"/>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="406.2">+Quiz()</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="422.2">+void addQuestion(Question question)</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="438.2">+void startQuiz()</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="454.2">+void displayResults()</text>
+    <text font-size="12.8" style="fill: #4d4d4d;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="633" y="470.2">+getScore(): int</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #7f7f7f" x1="1221" y1="387" x2="932.757" y2="388.961"/>
+    <polygon style="fill: #7f7f7f" points="927,389 931.966,383.966 937,388.932 932.034,393.966 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #7f7f7f" points="927,389 931.966,383.966 937,388.932 932.034,393.966 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #7f7f7f;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1206" y="370">
+    <tspan x="1206" y="370">*</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #7f7f7f;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="942" y="368">
+    <tspan x="942" y="368">1</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #7f7f7f" points="380,357 501,357 501,403 623.295,403 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #7f7f7f" points="610.647,408 626.647,403 610.647,398 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #4d4d4d;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="457" y="371">
+    <tspan x="457" y="371">uses</tspan>
+  </text>
+</svg>
