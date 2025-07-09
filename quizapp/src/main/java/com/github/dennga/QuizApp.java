@@ -1,7 +1,13 @@
 package com.github.dennga;
 
-public class Main {
+public class QuizApp {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        
+
+
+
+
+
+        
     }
 }
